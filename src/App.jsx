@@ -1,10 +1,12 @@
 import './App.css'
-
+import Home from './pages/Home'
+import { Toaster } from 'react-hot-toast';
 function App() {
 
   return (
-    <div className='bg-black flex justify-center items-center text-white min-h-screen'>
-      Hello, I am building new project.
+     <div className="bg-gray-200">
+      <Toaster position="top-center" />
+      <Home />
     </div>
   )
 }
