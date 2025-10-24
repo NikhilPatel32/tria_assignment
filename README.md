@@ -65,7 +65,7 @@ This Contact List Manager is a single-page application that allows users to mana
 ### Installation
 
 1. Clone the repository
-- git clone https://github.com/yourusername/contact-list-manager.git
+- git clone https://github.com/NikhilPatel32/tria_assignment.git
 - cd frontend
 
 2. Install dependencies
@@ -162,7 +162,7 @@ const currentContacts = filteredContacts.slice(startIndex, endIndex);
 - Provides instant user feedback for actions
 - Lightweight alternative to building custom notification system
 
-## 🎨 Design Decisions
+## Design Decisions
 
 1. **Tailwind CSS**: Chosen for rapid development and easy responsive design
 2. **Component Separation**: Modals separated for reusability and maintainability
@@ -191,7 +191,8 @@ const currentContacts = filteredContacts.slice(startIndex, endIndex);
 - [ ] Contact photo upload
 - [ ] Advanced search filters
 
-
+## Demo
+**[Try Live Demo](https://tria-assignment-coral.vercel.app/)**
 
 
 
